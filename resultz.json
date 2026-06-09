@@ -1,0 +1,72 @@
+{
+  "numTotalTestSuites": 1,
+  "numPassedTestSuites": 1,
+  "numFailedTestSuites": 0,
+  "numPendingTestSuites": 0,
+  "numTotalTests": 3,
+  "numPassedTests": 0,
+  "numFailedTests": 3,
+  "numPendingTests": 0,
+  "numTodoTests": 0,
+  "startTime": 1703560048193,
+  "success": false,
+  "testResults": [
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " Arama Çubuğu component'i eklenmiş",
+          "status": "failed",
+          "title": "Arama Çubuğu component'i eklenmiş",
+          "duration": 27,
+          "failureMessages": [
+            "expected null not to be null // Object.is equality"
+          ],
+          "location": {
+            "line": 13,
+            "column": 55
+          }
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " Arama Çubuğu ile search yapılabiliyor.",
+          "status": "failed",
+          "title": "Arama Çubuğu ile search yapılabiliyor.",
+          "duration": 4,
+          "failureMessages": [
+            "Unable to fire a \"input\" event - please provide a DOM element."
+          ],
+          "location": {
+            "line": 27,
+            "column": 11
+          }
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " Arama Çubuğu'ndaki input alanına bir şeyler yazıp, silince de doğru sonuçlar geliyor. ",
+          "status": "failed",
+          "title": "Arama Çubuğu'ndaki input alanına bir şeyler yazıp, silince de doğru sonuçlar geliyor. ",
+          "duration": 4,
+          "failureMessages": [
+            "Unable to fire a \"input\" event - please provide a DOM element."
+          ],
+          "location": {
+            "line": 27,
+            "column": 11
+          }
+        }
+      ],
+      "startTime": 1703560375197,
+      "endTime": 1703560375233,
+      "status": "failed",
+      "message": "",
+      "name": "/home/projects/vitejs-vite-xemjq1/src/__tests__/index.test.jsx"
+    }
+  ]
+}
