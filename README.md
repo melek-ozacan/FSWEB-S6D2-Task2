@@ -17,3 +17,9 @@ Bunun için App.jsx'de aramaKriter'i state'i var. AramaCubugu'na bu state'i ve y
 - İpucu: onChange event'ini kullanabilirsin.
 - İpucu: input alanına value olarak aramaKriteri'ni ekleyebilirsin.
 - İpucu: state'leri değiştirmek için setter'larını kullanmaya dikkat.
+
+## Önemli Notlar
+
+- Proje dizinindeki `user.json` dosyasını bulun ve `user_id` alanını NextGen proje ekranında görünen kendi `user_id` değeriniz ile güncelleyin.
+- Geliştirme sırasında testleri izlemek için `npm test` komutunu kullanın.
+- Testleri çalıştırıp skoru NextGen'e kaydetmek için `npm run sendresults` komutunu kullanın.
